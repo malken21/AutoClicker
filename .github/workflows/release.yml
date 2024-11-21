@@ -25,6 +25,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           body_path: .github/ReleaseBody.txt
-          files: HideCursor.zip
+          files: AutoClicker.zip
 permissions:
   contents: write

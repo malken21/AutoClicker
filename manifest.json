@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Clicker",
+    "version": "1.0",
+    "description": "指定した要素を自動でクリックします",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

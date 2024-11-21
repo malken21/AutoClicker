@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Auto Clicker",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "指定した要素を自動でクリックします",
     "permissions": [
         "activeTab"
